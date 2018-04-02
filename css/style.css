@@ -27,10 +27,12 @@ body {
 .moreIndicator {
 	height: 50px;
 	width: 50px;
-	position: absolute;
+	vertical-align: middle;
+	position: relative;
 	z-index: 3;
 	opacity: .8;
 	top: 0px;
+	transform: rotate(90deg);
 }
 
 .thumbnail {
@@ -48,15 +50,21 @@ body {
 	clear: both;
 	position: relative;
 }
-
 #prevPhoto {
 	height: 42px;
 	width: 42px;
+	transform: rotate(180deg);
+	
 }
+
+
 
 #nextPhoto {
 	height: 42px;
 	width: 42px;
+	right: 0px;
+	
+
 }
 
 .details p {
